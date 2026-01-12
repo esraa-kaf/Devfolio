@@ -198,6 +198,15 @@ margin-bottom: 5rem;
     padding: 6px 16px;
     text-transform: uppercase;
 }
+.work-info h3:hover{
+color: #0078ff;
+cursor: pointer;
+}
+.work-info a:hover{
+color: #0078ff !important;
+cursor: pointer;
+}
+
 .card-btn{
     bottom: -17px;
     right: 50%;
