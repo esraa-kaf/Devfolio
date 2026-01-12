@@ -13,6 +13,18 @@
   color: #fff !important;
   position: relative;
 
+
+}
+.dropdown-item:hover{
+    background-color: #fff;
+    box-shadow: 0 0 5px #ccc;
+}
+.navbar-nav .nav-link.active {
+    color: #0078ff !important; /* اللون الأزرق */
+   
+}
+.navbar-nav .nav-link:focus {
+    color: #0078ff !important;
 }
 .navbar-brand{
     font-size: 35px;
@@ -59,7 +71,7 @@
 }
 .services{
 padding-top: 75px;
-padding-bottom: 70px;
+/* padding-bottom: 70px; */
 }
 .services .item{
     border-radius: 20px;
@@ -90,7 +102,7 @@ padding-bottom: 70px;
     background-position: center center;
     padding: 8rem 0;
     color: #fff;
-    margin-bottom: 70px;
+    
     /* z-index: 10; */
 }
 .numbers .overlay {
@@ -125,12 +137,14 @@ padding-bottom: 70px;
 
 #carouselExampleIndicators
 {
-    padding-top: 150px;
-}
-.carousel-indicators{
-margin-bottom: 5rem;
+    padding-top: 50px;
+    padding-bottom: 120px;
 }
 
+.carousel-indicators {
+    bottom: -20px;
+   margin-bottom: 8rem;
+}
 .carousel-indicators button {
   width: 15px !important;
   height: 15px !important;
@@ -158,6 +172,7 @@ margin-bottom: 5rem;
     background-color: #0078ff;
     opacity: .7;
 }
+
 .contact .overlay{
     background-color: #0078ff;
     opacity: .7;
